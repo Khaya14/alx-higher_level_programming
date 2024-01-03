@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-# 8-uppercase.py
-# Khayalethu Shezi <khayashezi14@gmail.com>
-
 def uppercase(str):
     for i in str:
         if ord(i) >= 97 and ord(i) <= 122:
