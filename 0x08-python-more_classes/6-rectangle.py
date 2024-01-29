@@ -71,8 +71,8 @@ class Rectangle:
 
                                                                                                                                                                                                                                                 def __repr__(self):
                                                                                                                                                                                                                                                     """returns a string representation of the rectangle"""
-                                                                                                                                                                                                                                                    return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
+                                                                                                                                                                                                                                                    return "Rectangle({}, {})".format(self.__width, self.__height)
                                                                                                                                                                                                                                                 def __del__(self):
-            """prints a message for every object that is deleted"""
+            """Delete"""
             print("Bye rectangle...")
             Rectangle.number_of_instances -= 1
